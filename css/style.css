@@ -124,6 +124,6 @@ section .set div:nth-child(8)
 }
 .set3
 {
-    transform: scale(0.8) rotateY(180deg);
+    transform: scale(0.8) rotateX(180deg);
     filter: blur(4px);
 }
