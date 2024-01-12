@@ -129,3 +129,57 @@ section .set div:nth-child(8)
     transform: scale(0.8) rotateX(180deg);
     filter: blur(4px);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Maps&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 35px;
+    color: #78de5f;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: #5500fd;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+
+    width: 100%;
+}
