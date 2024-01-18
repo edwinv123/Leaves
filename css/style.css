@@ -154,7 +154,7 @@ section .set div:nth-child(8)
 
 .logo {
     font-size: 35px;
-    color: #78de5f;
+    color: #95a391;
     text-decoration: none;
     font-weight: 700;
 }
@@ -182,4 +182,9 @@ section .set div:nth-child(8)
 .navbar a:hover::before{
 
     width: 100%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
 }
